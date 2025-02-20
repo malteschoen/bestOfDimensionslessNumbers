@@ -34,16 +34,25 @@
 - Indicates whether normal stresses are relevant to our problem
 - Care must be taken when using this stress ratio - it does not relate to any property of the material (no relaxation time in it!)
 
-## Others
+  
+####  elongational parameter epsilon from PTT models
+-  how strong can the normal stresses become?
+
+## Flows of fluids and solids
 
 #### Manas-Zlocower index
 -  is my flow shear- or elongation-dominated?
 
-####  elongational parameter epsilon from PTT models
--  how strong can the normal stresses become?
 
 #### Inertial number I
 - will my pellet flow choke?
+
+#### Hydrodynamic entrance lenght
+- For a given flowed-through cross-section impulse transfer between fluid layers causes a characteristic velocity profile to develop - the boundary layer grows until it reaches it's maximum (which might cover all the cross-section)
+- For laminar flows, we can calculate $L_{h}$, the lenght required for this process
+```math
+L_{h}=\left( \frac{Area}{Circumference} \right)^{2}*\frac{Density}{Viscosity }* AverageVelocity=\left( \frac{A}{C} \right)^{2}*\frac{ \rho}{ \mu}*   \overline{u}
+```
 
 ## Literature: 
 [1] Morris, Barry A.: Troubleshooting coextrusion film problems by considering process–property relationships. In: Journal of Plastic Film & Sheeting Vol. 29 (2013), No. 2, p. 189–203 - DOI: 10.1177/8756087912473299
